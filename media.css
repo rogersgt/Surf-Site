@@ -1,0 +1,126 @@
+@media (max-width: 28em){
+  body{
+    min-width: 20em;
+  }
+  p{
+    padding: 1em;
+  }
+  ul{
+    padding: 1em;
+  }
+/***************************** Header ***************************/
+  header{
+    height: 10em;
+    overflow: hidden;
+  }
+  h1{
+    margin: 0;
+    padding: 0;
+    font-size: 1.9em;
+  }
+  h6{
+    margin-bottom: 5em;
+  }
+  .nav{
+    margin-left: 9%;
+  }
+  .nav li{
+    vertical-align: middle;
+    margin: 8% 0 0 0;
+  }
+  .oddcol, .nav > li >img{
+    display: none;
+  }
+/***************************** Meat ***************************/
+  h2{
+    font-size: 2.5em;
+    margin-bottom: 0;
+    text-align: left;
+    margin-left: .5em;
+  }
+  h3{
+    width: 100%;
+    padding: 0 1em;
+  }
+  h4{
+    margin: 40% 0;
+  }
+  h5{
+    margin-left: 1em;
+  }
+  .col-1, .col-2, .col-3{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .h2{
+    margin: 1em 1em;
+    padding: 0;
+  }
+  .author{
+    margin: .5em 2em 0 2em;
+    padding: 0;
+  }
+  .author a, span{
+    display: none;
+  }
+  .pic-circ-sm, .author > img{
+    display: none;
+  }
+  .btn{
+    width: 4em;
+    height: 4em;
+    padding: 0;
+   }
+  .btn p{
+    display: none;
+   }
+  .med-nav{
+    width: 70%;
+    margin-left: 20%;
+   }
+ .box-blue, .ad{
+   width: 100%;
+ }
+ .box-blue{
+   width: 200%;
+   position: relative;
+   top: -20em;
+   height: 19.7em;
+   margin-bottom: -20em;
+ }
+  .ad-container{
+    overflow: hidden;
+  }
+  #buttons{
+    margin-left: 1em;
+    margin-bottom: 2em;
+  }
+  #buttons a li span{
+    display: none;
+  }
+  #buttons li{
+    padding-right: 0;
+    font-size: 1.6em;
+    margin-left: .3em;
+  }
+/*************************** Footer ****************************/
+footer{
+  height: 70em;
+}
+.bot-nav{
+  margin: 0 auto;
+  padding: 10em 0;
+}
+.bot-nav ul{
+  background-color: #254A6E;
+  display: inline-block;
+}
+  .bottom{
+    background: none;
+  }
+  .col-3{
+    margin-top: 5%;
+    background-color: #254A6E;
+  }
+}
